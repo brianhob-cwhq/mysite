@@ -29,3 +29,5 @@ function saveNotes(){
     localStorage.setItem("notes", notes)
 }
 $("#saveNotesButton").click(saveNotes)
+
+checkDay()
