@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Desktop</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='scripts.js')}}"></script>
+</head>
+<body onload="startTime()">
+    <div class="container">
+        <div class="top">
+            <div id="date">Date</div>
+            <h1>My Personal Desktop</h1>
+            <div id="clock"></div>
+        </div>
+        <div class="main">
+           <div class="widget">
+                <h2>Widget 1</h2>
+           </div>
+           <div class="widget">
+                <h2>Widget 2</h2>
+           </div>
+           <div class="widget">
+                <h2>Widget 3</h2>
+           </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+</script>
+</html>
+
